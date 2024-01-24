@@ -3,7 +3,7 @@
     {
       "name": "day-00 test",
       "setup": "sudo -H pip3 install pytest",
-      "run": "cd day00 && wget \"http://129.154.248.18:8500/api/fs/download?file=/test_day00.py&preview=true\" && pytest ",
+      "run": "cd day00 && wget \"http://129.154.248.18:8500/api/fs/download?file=/test_day00.py&preview=true\" && ls && pytest ",
       "input": "",
       "output": "",
       "comparison": "exact",
