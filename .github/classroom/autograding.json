@@ -3,7 +3,7 @@
     {
       "name": "day-00 test",
       "setup": "sudo -H pip3 install pytest",
-      "run": "cd day00 && curl -O -H 'Authorization: token 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' https://raw.githubusercontent.com/chanakyavasantha/DataScieneBootCampTesting/main/test_day00.py && pytest",
+      "run": "cd day00 && curl -O -H \"Authorization: token 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\" https://raw.githubusercontent.com/chanakyavasantha/DataScieneBootCampTesting/main/test_day00.py && pytest",
       "input": "",
       "output": "",
       "comparison": "exact",
