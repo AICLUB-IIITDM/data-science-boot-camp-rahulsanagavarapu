@@ -3,7 +3,7 @@
     {
       "name": "day-00 test",
       "setup": "sudo -H pip3 install pytest",
-      "run": "wget --header=\"Authorization: token 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\" \"https://raw.githubusercontent.com/chanakyavasantha/DataScieneBootCampTesting/main/test_day00.py\" && pytest ",
+      "run": "cd day00 && wget --header=\"Authorization: token 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\" \"https://raw.githubusercontent.com/chanakyavasantha/DataScieneBootCampTesting/main/test_day00.py\" && pytest ",
       "input": "",
       "output": "",
       "comparison": "exact",
