@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "day-00 test",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "cd day00 && python3 <(curl https://raw.githubusercontent.com/chanakyavasantha/DataScieneBootCampTesting/main/test_day00.py?token=GHSAT0AAAAAACHVRZZG2RNPRRADDVZLYNBUZNQ46VQ)",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
